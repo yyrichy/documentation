@@ -12,7 +12,7 @@ Welcome to VapoR's documentation!
 
 
 
-Contents
+Indicmak
 ==================
 
 * :ref:`genindex`
