@@ -6,4 +6,4 @@ Welcome to the Build The Earth: Guide!
     :maxdepth: 2
     :glob:
 
-    */index
+    /index
