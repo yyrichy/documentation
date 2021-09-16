@@ -53,8 +53,9 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
+html_title = "VapoR's Docs"
+html_short_title = "VDocs"
 html_theme_options = {
-    'analytics_anonymize_ip': False,
     'logo_only': False,
     'display_version': False,
     'prev_next_buttons_location': 'bottom',

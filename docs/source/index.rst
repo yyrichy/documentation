@@ -1,20 +1,15 @@
-.. VapoR documentation master file, created by
-   sphinx-quickstart on Mon Sep 13 16:35:49 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+<!---
+title: Index
+path: /
+--->
+Welcome to VapoR's Guide!
+==================================================
 
-Welcome to VapoR's documentation!
-=====================================
-
+```eval_rst
+.. todo:: Finish theme
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+    :maxdepth: 2
+    :glob:
 
-
-
-Indicmak
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+    */index
+```
