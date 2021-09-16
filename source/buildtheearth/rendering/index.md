@@ -7,8 +7,8 @@ authors:
 --->
 Minecraft Rendering with Blender
 ==================================================
-```.. toctree::
-.. todo:: Finish Tutorial
+```.. todo:: Finish Tutorial
+.. toctree::
     creating-obj
     importing-obj
 ```
