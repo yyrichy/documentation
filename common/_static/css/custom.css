@@ -1,0 +1,17 @@
+@keyframes highlight {
+    0% {
+        background-color: orange;
+        color: #fff;
+    }
+    100% {
+        background-color: initial;
+        color: initial;
+    }
+}
+.section:target {
+    animation: highlight 2s;
+}
+
+nav {
+    width: max-content;
+}
