@@ -1,15 +1,12 @@
-<!---
 title: Index
 path: /
---->
-Welcome to VapoR's Guide!
+
+Welcome to the Build The Earth: Guide!
 ==================================================
 
-```eval_rst
-.. todo:: Finish theme
+.. todo:: Finish Theme
 .. toctree::
     :maxdepth: 2
     :glob:
 
     */index
-```
