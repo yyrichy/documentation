@@ -1,5 +1,6 @@
 <!---
 title: Exporting with Mineways
+path: /buildtheearth/rendering
 --->
 Exporting OBJ with Mineways
 ==================================================

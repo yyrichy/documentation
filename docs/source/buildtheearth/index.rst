@@ -1,5 +1,6 @@
 <!---
 title: Build The Earth
+path: /buildtheearth
 --->
 BuildtheEarth
 ==================================================
