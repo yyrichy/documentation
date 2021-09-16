@@ -1,11 +1,11 @@
 @keyframes highlight {
     0% {
         background-color: orange;
-        color: #fff;
+        color: gray;
     }
     100% {
-        background-color: initial;
-        color: initial;
+        background-color: orange;
+        color: green;
     }
 }
 .section:target {
