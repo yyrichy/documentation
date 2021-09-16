@@ -1,8 +1,8 @@
 Welcome to VapoR's Docs!
 ==================================================
+Contents:
 
 .. toctree::
     :maxdepth: 2
-    :glob:
 
     buildtheearth/index.rst

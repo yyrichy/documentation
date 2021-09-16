@@ -1,4 +1,7 @@
 Minecraft Rendering
 ==================================================
 .. toctree::
-    mineways.rst
+    :glob:
+    :maxdepth: 1
+
+    *
