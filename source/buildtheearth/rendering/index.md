@@ -8,9 +8,6 @@ authors:
 Minecraft Rendering with Blender
 ==================================================
 ```.. toctree::
-    :glob:
-    :maxdepth: 1
-
     creating-obj
     importing-obj
 ```

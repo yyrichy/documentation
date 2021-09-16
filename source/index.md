@@ -12,6 +12,7 @@ Welcome to VapoR's Docs!
 .. todo:: Finish Docs
 .. toctree::
     :maxdepth: 2
+    :glob:
 
     buildtheearth/index.md
 ```
