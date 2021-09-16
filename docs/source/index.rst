@@ -1,3 +1,4 @@
+title: Vapor's Docs
 Welcome to VapoR's Docs!
 ==================================================
 
