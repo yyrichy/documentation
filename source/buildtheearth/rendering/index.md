@@ -11,6 +11,6 @@ Minecraft Rendering with Blender
     :glob:
     :maxdepth: 1
 
-    obj.md
-    importing.md
+    creating-obj
+    importing-obj
 ```
