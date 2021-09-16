@@ -40,6 +40,9 @@ extensions = [
     'sphinx.ext.duration',
     'sphinx_markdown_tables'
 ]
+todo_include_todos = True
+todo_emit_warnings = True
+autosectionlabel_prefix_document = True
 
 html_theme = 'sphinx_rtd_theme'
 
