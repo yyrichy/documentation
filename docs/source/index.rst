@@ -1,7 +1,3 @@
-<!---
-title: VapoR's Docs
-path: /
---->
 Welcome to VapoR's Docs!
 ==================================================
 
