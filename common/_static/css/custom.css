@@ -1,17 +1,16 @@
 @keyframes highlight {
     0% {
-        background-color: orange;
-        color: gray;
+        background-color: cornflowerblue;
+        color: #fff;
     }
     100% {
-        background-color: orange;
-        color: green;
+        background-color: initial;
+        color: initial;
     }
 }
 .section:target {
     animation: highlight 2s;
 }
-
 nav {
     width: max-content;
 }
