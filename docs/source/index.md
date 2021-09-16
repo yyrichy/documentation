@@ -1,6 +1,3 @@
-title: Index
-path: /
-
 Welcome to the Build The Earth: Guide!
 ==================================================
 
