@@ -3,4 +3,4 @@
     :caption: Minecraft Renders
     :glob: 
 
-    rendering/index
+    rendering/index.rst

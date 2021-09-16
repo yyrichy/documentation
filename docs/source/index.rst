@@ -1,9 +1,8 @@
-Welcome to the Build The Earth: Guide!
+Welcome to VapoR's Docs!
 ==================================================
 
-.. todo:: Finish Theme
 .. toctree::
     :maxdepth: 2
     :glob:
 
-    /index
+    buildtheearth/index.rst
