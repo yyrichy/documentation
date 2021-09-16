@@ -1,4 +1,6 @@
+<!---
 title: Rendering
+--->
 Minecraft Rendering
 ==================================================
 .. toctree::
