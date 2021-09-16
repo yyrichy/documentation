@@ -33,9 +33,12 @@ release = '2050'
 # ones.
 
 extensions = [
-    'sphinx_rtd_theme',
     'recommonmark',
-    'sphinx.ext.todo'
+    'sphinx.ext.todo',
+    'sphinx.ext.extlinks',
+    'sphinx.ext.autosectionlabel',
+    'sphinx.ext.duration',
+    'sphinx_markdown_tables'
 ]
 
 html_theme = 'sphinx_rtd_theme'

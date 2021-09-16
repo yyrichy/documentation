@@ -1,7 +1,7 @@
 @keyframes highlight {
     0% {
         background-color: cornflowerblue;
-        color: #fff;
+        color: orange;
     }
     100% {
         background-color: initial;
