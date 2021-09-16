@@ -1,4 +1,6 @@
-title: Vapor's Docs
+<!---
+title: VapoR's Docs
+--->
 Welcome to VapoR's Docs!
 ==================================================
 
