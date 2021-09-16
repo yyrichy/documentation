@@ -1,3 +1,2 @@
 .. toctree::
-    install-java
-    install-bedrock
+    mineways.md
