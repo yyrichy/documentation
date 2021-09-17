@@ -13,32 +13,21 @@ The first step of making a render is creating an OBJ file from your world or sch
   * You have a schematic or vanilla world(jMc2Obj doesn't support schematics)
   * You want a simple, small render (<500 x 500 blocks)
   * You don't care that banners and heads won't transfer properly
-
+```eval_rst
 .. note::
    Mineways is much less optimized than jMc2Obj, so that is why I don't recommend Mineways for huge areas.
    Banners turn white and all heads turn into pumpkins.
-
+```
 - Use Mineways If These Apply
   * You want to render a large area (>500 x 500 blocks)
   * You want banners and custom heads to transfer
-
+```eval_rst
 .. note::
    With jMc2Obj you can render huge areas (I once did all of downtown Seattle and more) when optmize mesh is checked, however it has its drawbacks. When it is checked, blocks like panes and walls may become 2D planes. If you uncheck optimize mesh, performance goes down drastically.
-
+```
 ## Using Mineways
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget ultrices diam. Maecenas ac lobortis erat. Nullam maximus tempus dui, ut tempor enim gravida eu. Morbi vitae maximus mi, eget dapibus augue. Pellentesque pharetra elit rhoncus odio eleifend, vel placerat lorem vulputate. Phasellus dictum dolor at libero lacinia sollicitudin. Mauris euismod, elit non convallis rutrum, libero metus condimentum quam, in vehicula elit eros sed massa.
-
-.. note::
-   This is note text. Use a note for information you want the user to
-   pay particular attention to.
-
-   If note text runs over a line, make sure the lines wrap and are indented to
-   the same level as the note tag. If formatting is incorrect, part of the note
-   might not render in the HTML output.
-
-   Notes can have more than one paragraph. Successive paragraphs must
-   indent to the same level as the rest of the note.
 
 In sed tellus tincidunt, semper lacus in, pulvinar arcu. Nullam congue lacus vel risus feugiat mattis. Integer et fringilla risus, vitae semper elit. Maecenas sodales fermentum orci a tristique. Nunc vehicula efficitur ornare. Pellentesque vehicula, orci sit amet accumsan mollis, libero odio varius lacus, eu varius elit sem in sapien. Proin auctor mi a enim faucibus dignissim. Proin vel mattis purus, a condimentum ante. Praesent ac nunc lacus. Nam nunc est, interdum sit amet ornare non, viverra ac ipsum. Maecenas maximus enim eget magna ullamcorper efficitur. Etiam auctor id dui non commodo. Donec a porta urna, non luctus odio. Curabitur semper ligula eu dui hendrerit, et tincidunt erat varius.
 
