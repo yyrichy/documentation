@@ -19,7 +19,7 @@ from recommonmark.transform import AutoStructify
 
 # -- Project information -----------------------------------------------------
 
-project = 'VapoR'
+project = 'Minecraft Related Documentation'
 copyright = '2021, VapoR'
 author = 'VapoR'
 
