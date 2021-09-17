@@ -26,7 +26,7 @@ The first step of making a render is creating an OBJ file from your world or sch
 ```
 ## Using Mineways
 
-1. Download Mineways here: https://www.realtimerendering.com/erich/minecraft/public/mineways/ 
+1. Download Mineways [here](https://www.realtimerendering.com/erich/minecraft/public/mineways/)
 2. 
 3. 
 4. 
@@ -34,7 +34,7 @@ The first step of making a render is creating an OBJ file from your world or sch
 
 ## Using JMC2OBJ
 
-1. Download jMc2Obj here: https://cdn.discordapp.com/attachments/793250835294584864/888249927229124678/jMC2Obj-bte.zip
+1. Download jMc2Obj [here](<https://cdn.discordapp.com/attachments/793250835294584864/888249927229124678/jMC2Obj-bte.zip>)
 2. 
 3. 
 4. 
