@@ -48,3 +48,7 @@ The first step of making a render is creating an OBJ file from your world or sch
 3. Execute the jMc2Obj jar file by either opening your terminal/command prompt, navigating to the same directory as the jar and typing `java -jar JMC2OBJJARNAME.jar` or on Windows right click the jar, `Open With`, `Java...`
 4. 
 5. 
+
+```eval_rst
+After creating the OBJ and it's accompanying files, proceed to :doc:`importing-obj`.
+```
