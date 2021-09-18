@@ -12,7 +12,6 @@ This is a guide for those who want to use Blender. If you want to use Chunky, or
 ```
 ```eval_rst
 .. todo:: Finish Tutorial
-.. note:: Ask @VapoR#0807 on Discord if you have questions!
 .. toctree::
     creating-obj
     importing-obj
