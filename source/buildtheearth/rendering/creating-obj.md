@@ -41,7 +41,7 @@ The first step of making a render is creating an OBJ file from your world or sch
    If you run out of memory when exporting, click **Help**, and check **Give more export memory!**, then restart the program. If you ran out of memory it's likely a large area, in which case you should consider using jMc2Obj.
 ```
 
-## Using JMC2OBJ
+## Using jMc2Obj
 
 1. Download jMc2Obj [here for 1.13+](https://cdn.discordapp.com/attachments/793250835294584864/888249927229124678/jMC2Obj-bte.zip) and [here for 1.12.2](https://github.com/jmc2obj/j-mc-2-obj/releases/download/50/jMc2Obj-dev_g50.jar)
 2. If you downloaded the one for 1.13+, take the zip's contents out of the zip
