@@ -12,6 +12,8 @@ The first step of making a render is creating an OBJ file from your world or sch
 ```eval_rst
 .. note::
    Mineways is much less optimized than jMc2Obj, so that is why I don't recommend Mineways for huge areas. With jMc2Obj you can render huge areas (I once did all of downtown Seattle and more) when optmize mesh is checked, however it has its drawbacks. When it is checked, blocks like panes and walls may become 2D planes. If you uncheck optimize mesh, performance goes down drastically.
+.. warning::
+   This page is not complete.
 ```
 - Use Mineways If These Apply
   * You have a schematic or vanilla world (jMc2Obj doesn't support schematics)
@@ -50,6 +52,8 @@ The first step of making a render is creating an OBJ file from your world or sch
 5. Click `Load`
 6. Under `Preview Options` check `Fast Renderer` 
 7. Use left click and drag to select an area to export
+
+To Be Continued...
 
 ```eval_rst
 After creating the OBJ and it's accompanying files, proceed to :doc:`importing-obj`.
