@@ -1,18 +1,15 @@
 <!---
-title: Minecraft Rendering with Blender
+title: Minecraft Rendering
 path: /buildtheearth/rendering
 version: 1.0.0
 authors:
     - @VapoR
 --->
-Minecraft Rendering with Blender
+Minecraft Rendering
 ==================================================
 ```eval_rst
-This is a guide for those who want to use Blender. If you want to use Chunky, or some other software this is not for you. Unless you are using Cinema4D or a software that supports OBJs, in which case you could use :doc:`creating-obj`.
-```
-```eval_rst
-.. todo:: Finish Tutorial
+.. todo:: Finish.
 .. toctree::
-    creating-obj
-    importing-obj
+    chunky/index.md
+    blender/index.md
 ```

@@ -52,8 +52,7 @@ The first step of making a render is creating an OBJ file from your world or sch
 5. Click `Load`
 6. Under `Preview Options` check `Fast Renderer` 
 7. Use left click and drag to select an area to export
-
-To Be Continued...
+8. To Be Continued...
 
 ```eval_rst
 After creating the OBJ and it's accompanying files, proceed to :doc:`importing-obj`.
