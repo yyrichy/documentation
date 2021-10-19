@@ -31,7 +31,7 @@ The first step of making a render is creating an OBJ file from your world or sch
 2. Open Mineways
 3. On the top left click `File`, `Open`
 4. Navigate to your schematic or vanilla world and double click the `.schematic` or `level.dat`
-5. Use left click and drag to move around
+5. Use left click and drag to move around, scroll wheel to zoom
 6. Use right click and drag to select a region to export
 7. Note the `Height` and `Depth` sliders at the top of the screen. Only the blocks inside that range will be exported. Areas highlighted with purple inside the region will be exported
 8. After selecting a region, click `File`, `Export for Rendering`
@@ -51,8 +51,17 @@ The first step of making a render is creating an OBJ file from your world or sch
 4. Click the button with three dots `...` at the top left of the program and find your world
 5. Click `Load`
 6. Under `Preview Options` check `Fast Renderer` 
-7. Use left click and drag to select an area to export
-8. To Be Continued...
+7. Use left click and drag to select a region to export, scroll wheel to zoom
+8. Use right click to move around
+9. After selecting a region, click `Export`
+10. Copy these settings, adjusting thread count to your own computer's specs
+```eval_rst
+.. image:: ../../../../images/jmc.png
+   :width: 600
+```
+ㅤ  
+11. Click `Export textures from: Minecraft`
+12. Click `Export` on bottom right (use the same folder as the textures)
 
 ```eval_rst
 After creating the OBJ and it's accompanying files, proceed to :doc:`importing-obj`.
