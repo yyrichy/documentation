@@ -57,9 +57,10 @@ The first step of making a render is creating an OBJ file from your world or sch
 .. image:: ../../../../images/jmc.png
    :width: 600
 ```
-```eval_rst
-11. Click `Export textures from: Minecraft`  
+\
+11. Click `Export textures from: Minecraft`\
 12. Click `Export` on bottom right (use the same folder as the textures)
 
+```eval_rst
 After creating the OBJ and it's accompanying files, proceed to :doc:`importing-obj`.
 ```
