@@ -1,6 +1,6 @@
 <!---
 title: Creating an OBJ
-path: /buildtheearth/rendering/mineways
+path: /buildtheearth/rendering/blender
 version: 1.0.0
 authors:
     - @VapoR
