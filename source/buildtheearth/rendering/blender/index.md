@@ -11,6 +11,8 @@ Rendering with Blender
 .. warning::
    This tutorial is still in progress and likely will be for a while.
 .. toctree::
+    :maxdepth: 5
+
     creating-obj
     importing-obj
     preparing-scene
