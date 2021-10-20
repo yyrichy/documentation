@@ -15,4 +15,5 @@ Rendering with Blender
     importing-obj
     preparing-scene
     exporting-render
+    extra
 ```
