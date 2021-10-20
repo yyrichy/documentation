@@ -5,6 +5,9 @@ version: 1.0.0
 authors:
   - @VapoR
 --->
+```eval_rst
+:tocdepth: 5
+```
 Welcome to VapoR's Docs!
 ==================================================
 
