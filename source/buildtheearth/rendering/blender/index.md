@@ -13,4 +13,6 @@ Rendering with Blender
 .. toctree::
     creating-obj
     importing-obj
+    preparing-scene
+    exporting-render
 ```
