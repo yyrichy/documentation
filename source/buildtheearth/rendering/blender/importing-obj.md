@@ -8,5 +8,5 @@ authors:
 
 # Importing OBJ into Blender
 ```eval_rst
-.. todo:: List steps.
+.. todo:: List steps for importing the obj into Blender.
 ```

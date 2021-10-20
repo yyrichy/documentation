@@ -8,5 +8,5 @@ authors:
 
 # Preparing Scene in Blender
 ```eval_rst
-.. todo:: List steps.
+.. todo:: List workflow in Blender including lighting, camera, etc. Can be broken up into seperate pages.
 ```

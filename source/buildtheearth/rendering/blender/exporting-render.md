@@ -8,5 +8,5 @@ authors:
 
 # Exporting Render
 ```eval_rst
-.. todo:: List steps.
+.. todo:: List steps for exporting final image.
 ```
