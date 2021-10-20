@@ -14,3 +14,7 @@
 nav {
     width: max-content;
 }
+
+.wy-nav-side {
+    overflow-x: auto;
+}
