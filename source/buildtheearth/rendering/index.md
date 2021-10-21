@@ -5,8 +5,7 @@ version: 1.0.0
 authors:
     - @VapoR
 --->
-Minecraft Rendering
-==================================================
+# Minecraft Rendering
 ```eval_rst
 .. todo:: Finish.
 .. toctree::

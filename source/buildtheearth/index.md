@@ -5,9 +5,7 @@ version: 1.0.0
 authors:
     - @VapoR
 --->
-BuildtheEarth
-==================================================
-
+# BuildtheEarth
 ```eval_rst
 .. toctree::
     :name: BuildtheEarth
