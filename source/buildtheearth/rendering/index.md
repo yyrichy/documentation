@@ -9,6 +9,8 @@ authors:
 ```eval_rst
 .. todo:: Finish.
 .. toctree::
+    :maxdepth: 2
+    
     chunky/index.md
     blender/index.md
 ```
