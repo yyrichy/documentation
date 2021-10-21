@@ -19,7 +19,7 @@ The first step of making a render is creating an OBJ file from your world or sch
   * You don't care that banners and heads won't transfer properly, banners turn white and all heads turn into pumpkins
 
 - Use jMc2Obj If These Apply
-  * You have a vanilla world (1.13+ is supported, 1.12.2 should work but may be broken)
+  * You have a vanilla world (1.13+, you can use the CubicChunksConverter to convert CubicChunks worlds into vanilla 1.12.2 worlds, then load the world in 1.13+)
   * You want to render a large area (>500 x 500 blocks)
   * You want banners and custom heads to transfer (1.13+)
 
@@ -46,7 +46,7 @@ The first step of making a render is creating an OBJ file from your world or sch
 1. Download jMc2Obj [here for 1.13+](https://cdn.discordapp.com/attachments/793250835294584864/888249927229124678/jMC2Obj-bte.zip) and [here for 1.12.2](https://github.com/jmc2obj/j-mc-2-obj/releases/download/50/jMc2Obj-dev_g50.jar)
 2. If you downloaded the one for 1.13+, take the zip's contents out of the zip
 3. Execute the jMc2Obj jar file by either opening your terminal/command prompt, navigating to the same directory as the jar and typing `java -jar JMC2OBJJARNAME.jar` or on Windows right click the jar, `Open With`, `Java...`
-4. Click the button with three dots `...` at the top left of the program and find your world
+4. Click the button with three dots `...` at the top left of the program and find your world (Must be a vanilla 1.13 - 1.17 world)
 5. Click `Load`
 6. Under `Preview Options` check `Fast Renderer` 
 7. Use left click and drag to select a region to export, scroll wheel to zoom
