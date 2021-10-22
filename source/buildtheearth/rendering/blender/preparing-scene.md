@@ -13,6 +13,11 @@ authors:
 So this is the big one. Blender has unlimited possibilities, and there are an unlimited amount of things you could do with your render. But here is a basic way to present your build.  
 
 I suggest familiarising yourself with Blender's controls and layout before preceding, but if you don't want to...
+## Basic Controls
+- Use scroll wheel to zoom in and out
+- Use joystick looking sphere at the top right to change perspective
+- Hold middle click and move mouse to change perspective
+- Hold shift and middle click then move mouse to pan around
 
 ## Lighting
 There are two basic ways to light your scene, HDRIs and lights/lamps (sun, area, etc). I will cover using HDRIs, as they provide easy, quick, realistic lighting.
