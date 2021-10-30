@@ -52,11 +52,7 @@ The first step of making a render is creating an OBJ file from your world or sch
 7. Use right click to move around
 8. After selecting a region, click `Export`
 9. Copy these settings, adjusting thread count to your own computer's specs
-```eval_rst
-.. image:: ../../../../images/jmc.png
-   :width: 600
-```
-\
+![JMC](../../../../images/jmc.png)
 10. Click `Export textures from: Minecraft`<br/>
 11. Click `Export` on bottom right (use the same folder as the textures)
 
