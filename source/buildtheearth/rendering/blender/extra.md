@@ -8,5 +8,5 @@ authors:
 
 # Advanced Extra Techniques
 ```eval_rst
-.. todo:: List more advanced extensions of preparing-scene and possibly post processing.
+.. todo:: Coming Somewhat Soon.
 ```
