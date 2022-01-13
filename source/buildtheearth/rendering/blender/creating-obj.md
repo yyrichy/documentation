@@ -19,9 +19,14 @@ The first step of making a render is creating an OBJ file from your world or sch
   * You don't care that banners and heads won't transfer properly, banners turn white and all heads turn into pumpkins
 
 - Use jMc2Obj If These Apply
-  * You have a vanilla world (1.13): You can use the [CubicChunksConverter](https://discord.gg/tJUWYq5wdR) to convert CubicChunks worlds into vanilla 1.12.2 worlds, then load the world in 1.13+. Alternatively you can use schematics. Note that the CubicChunksConverter doesn't currently transfer heads and banners.
+  * You have a vanilla world, or want to convert to one (1.13 - 1.18): You can use the [CubicChunksConverter](https://discord.gg/tJUWYq5wdR) to convert CubicChunks worlds into vanilla 1.12.2 worlds, then load the world in 1.17/18. Alternatively you can use schematics. Note that the CubicChunksConverter doesn't currently transfer heads and banners.
   * You want to render a large area (>500 x 500 blocks)
-  * You want banners and custom heads to transfer (1.13+)
+  * You want banners and custom heads to transfer
+
+```eval_rst
+.. note::
+   There's currently no good way of rendering things taller than 256 blocks if you created them on a 1.12.2 Cubic Chunks world. (If it was on a 1.17/1.18 vanilla server this note doesn't apply) You can either stack schematics in a 1.18 vanilla world then use that world to create a single OBJ, or make multiple schematics on the 1.12.2 world then create multiple OBJs.
+```
 
 ## Using Mineways
 
@@ -45,7 +50,7 @@ The first step of making a render is creating an OBJ file from your world or sch
 
 1. Download newest jMc2Obj jar [here](https://github.com/jmc2obj/j-mc-2-obj/releases)
 2. Execute the jMc2Obj jar file by either opening your terminal/command prompt, navigating to the same directory as the jar and typing `java -jar JMC2OBJJARNAME.jar` or on Windows right click the jar, `Open With`, `Java...`
-3. Click the button with three dots `...` at the top left of the program and find your world (Must be a vanilla 1.13 - 1.17 world)
+3. Click the button with three dots `...` at the top left of the program and find your world (Must be a vanilla 1.13 - 1.18 world)
 4. Click `Load`
 5. Under `Preview Options` check `Fast Renderer` 
 6. Use left click and drag to select a region to export, scroll wheel to zoom
