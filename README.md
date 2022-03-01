@@ -1,3 +1,1 @@
-# Documentation
-
-https://vapor-docs.readthedocs.io/en/latest/ 
+# [Documentation](https://vapor-docs.readthedocs.io/en/latest/)
