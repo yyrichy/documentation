@@ -1,15 +1,15 @@
 <!---
-title: BuildtheEarth
+title: BuildTheEarth
 path: /buildtheearth
 version: 1.0.0
 authors:
     - @VapoR
 --->
-# BuildtheEarth
+# BuildTheEarth
 ```eval_rst
 .. toctree::
-    :name: BuildtheEarth
-    :maxdepth: 3
+    :name: BuildTheEarth
+    :maxdepth: 4
     :glob: 
 
     rendering/index.md

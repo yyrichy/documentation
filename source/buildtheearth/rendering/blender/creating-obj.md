@@ -8,20 +8,20 @@ authors:
 
 # Creating an OBJ
 
-The first step of making a render is creating an OBJ file from your world or schematic. The OBJ file will later be imported into Blender. There are two software options for creating an OBJ, Mineways and jMc2Obj. Neither support cubic chunks worlds. If you have a cubic chunks world you'll need to make a schematic or convert to a vanilla world with the Cubic Chunks Converter.
+The first step of making a render is creating an OBJ file from your world or schematic. The OBJ file will later be imported into Blender. There are two software options for creating an OBJ, [Mineways](#using-mineways) and [jMc2Obj](#using-jmc2obj). Neither support Cubic Chunks worlds. If you have a Cubic Chunks world you'll need to make a schematic or convert to a vanilla world with the Cubic Chunks Converter.
 ```eval_rst
 .. note::
    Mineways is much less optimized than jMc2Obj, so that is why I don't recommend Mineways for huge areas. With jMc2Obj you can render huge areas (I once did all of downtown Seattle and more) when optmize mesh is checked, however it has its drawbacks. When it is checked, panes, fences, walls, etc may be missing. If you uncheck optimize mesh, performance goes down drastically.
 ```
-- Use Mineways If These Apply
-  * You have a schematic or vanilla world (jMc2Obj doesn't support schematics)
-  * You want a simple, small render (<500 x 500 blocks)
+- Use [Mineways](#using-mineways) If These Apply
+  * You have a schematic or vanilla world (jMc2Obj doesn't support schematics, but you could paste the schematic into a world)
+  * You want a simple, small render (~ <500 x 500 blocks)
   * You don't care that banners and heads won't transfer properly, banners turn white and all heads turn into pumpkins
 
-- Use jMc2Obj If These Apply
+- Use [jMc2Obj](#using-jmc2obj) If These Apply
   * You have a vanilla world, or want to convert to one (1.13 - 1.18): You can use the [CubicChunksConverter](https://jenkins.daporkchop.net/job/OpenCubicChunks/job/CubicChunksConverter/job/master/) (-all.jar) to convert CubicChunks worlds into vanilla 1.12.2 worlds, then load the world in 1.17/18. More information in the [Cubic Chunks Discord](https://discord.gg/tJUWYq5wdR). Alternatively you can use schematics. Note that the CubicChunksConverter doesn't currently transfer heads and banners.
-  * You want to render a large area (>500 x 500 blocks)
-  * You want banners and custom heads to transfer
+  * You want to render a large area (~ >500 x 500 blocks)
+  * You want banners and custom heads to be in the OBJ. (Requires you to use a world with heads/banners, which you might not be able to do if you use the CubicChunksConverter)
 
 ```eval_rst
 .. note::
@@ -61,6 +61,4 @@ The first step of making a render is creating an OBJ file from your world or sch
 10. Click `Export textures from: Minecraft`
 11. Click `Export` on bottom right (use the same folder as the textures)
 
-```eval_rst
-After creating the OBJ and it's accompanying files, proceed to :doc:`importing-obj`.
-```
+After the files are created, proceed [to the next step](importing-obj).

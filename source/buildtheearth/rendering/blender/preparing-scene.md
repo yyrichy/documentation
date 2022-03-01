@@ -57,6 +57,5 @@ Just position the camera where you can only see the Minecraft build in the image
 ### Infinite Background
 Common techinique in real world photos, now in Blender. Watch [this](https://www.youtube.com/watch?v=1kULKsUEctw) or [this](https://www.youtube.com/watch?v=5UCc3Z_-ibs) or maybe [this](https://www.youtube.com/watch?v=8FUzeMY6b18)
 ![Example](../../../../images/boston.png)
-```eval_rst
-I'm sure I missed some things, if they're not in :doc:`extra`, tell me on Discord. Of course I'm not going to cover every single thing that can be done in Blender.
-```
+
+I'm sure I missed some things, if they're not in [the extra page](extra), tell me on Discord. Of course I'm not going to cover every single thing that can be done in Blender.

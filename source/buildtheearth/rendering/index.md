@@ -7,9 +7,9 @@ authors:
 --->
 # Minecraft Rendering
 ```eval_rst
-.. todo:: Finish.
+.. note:: This area is incomplete
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
     
     chunky/index.md
     blender/index.md

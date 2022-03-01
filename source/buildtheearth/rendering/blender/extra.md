@@ -8,5 +8,5 @@ authors:
 
 # Advanced Extra Techniques
 ```eval_rst
-.. todo:: Coming Somewhat Soon.
+.. note:: Not coming anytime soon, you can find a billion Blender tutorials on the `internet <https://www.google.com/>`_ though
 ```
