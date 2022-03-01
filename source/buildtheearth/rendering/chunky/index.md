@@ -6,7 +6,7 @@ authors:
     - @VapoR
 --->
 # Rendering with Chunky
-```eval_rst
-.. warning::
-   This will be made after the Blender tutorial is completed, unless someone else wants to contribute.
-```
+
+Read [Chunky's official documentation](https://chunky-dev.github.io/docs/getting_started/).
+
+Chunky **has support for Cubic Chunks worlds** after [NotStirred added it](https://github.com/chunky-dev/chunky/pull/1031).

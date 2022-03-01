@@ -6,7 +6,8 @@ authors:
     - @VapoR
 --->
 # Rendering with Blender
-You should first install [Blender](https://www.blender.org/) before preceding to the pages below.
+
+First install [Blender](https://www.blender.org/) before preceding to the pages below.
 ```eval_rst
 .. toctree::
     :maxdepth: 2

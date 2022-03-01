@@ -7,7 +7,7 @@ authors:
 --->
 # Minecraft Rendering
 ```eval_rst
-.. note:: This area is incomplete
+.. note:: If you have issues, contact @VapoR#0807 on Discord
 .. toctree::
     :maxdepth: 3
     

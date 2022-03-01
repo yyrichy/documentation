@@ -17,6 +17,3 @@ authors:
 If you used jMc2Obj, you may notice that the OBJ looks distorted, so try changing the `x/y/z` scales until the blocks are square cubes.
 If you don't know how to reshape the OBJ, try selecting the build in Blender, on the right side panel enter in the search box `Transform`, then tweak the scales.
 ![Transform](../../../../images/transform.png)
-```eval_rst
-.. note:: If you have issues, contact @VapoR#0807 on Discord
-```
