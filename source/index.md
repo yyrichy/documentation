@@ -9,7 +9,7 @@ authors:
 ```eval_rst
 .. note:: Ask @VapoR#0807 on Discord if you have questions!
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
     :glob:
 
     buildtheearth/index.md
