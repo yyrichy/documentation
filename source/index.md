@@ -5,7 +5,7 @@ version: 1.0.0
 authors:
   - @VapoR
 --->
-# Welcome to VapoR's Docs!
+# Welcome to VapoR's Documentation!
 ```eval_rst
 .. note:: Ask @rypr#0807 on Discord if you have questions!
 .. toctree::

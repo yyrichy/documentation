@@ -41,7 +41,12 @@ There are two basic ways to light your scene, HDRIs and lights/lamps (sun, area,
 1. For Minecraft renders it's best looking to use cycles. As of writing cycles X hasn't been released with it, but you can mess around with it in alpha.
 2. To enable switch to cycles from eevee (default engine), go to the right side panel in the `Layout` editor, and select `Render Properties`, `Render Engine`, and select `Cycles`
 3. On the top right of the 3d viewport click the sphere `Viewport Shading`
-![Viewport Shading](../../../../images/viewport_shading.png)
+
+```eval_rst
+.. image:: ../../../../images/viewport_shading.png
+    :width: 600
+    :alt: Viewport Shading
+```
 
 ## Camera
 
@@ -51,7 +56,11 @@ There are two basic ways to light your scene, HDRIs and lights/lamps (sun, area,
 4. Now when you move around the camera will also move around
 5. I suggest increasing the camera focal length (like decreasing Minecraft FOV) by selecting the Camera, going to the right side bar, clicking the green camera icon, and changing `Lens`, `Focal Length`
 
-![Camera Focal Length](../../../../images/camera_focal_length.png)
+```eval_rst
+.. image:: ../../../../images/camera_focal_length.png
+    :width: 600
+    :alt: Camera Focal Length
+```
 
 ## Ground
 
@@ -64,18 +73,30 @@ You can either use the background of the HDRI, which can sometimes work or somet
 
 Just position the camera where you can only see the ski of the HDRI in the image.
 
-![Example](../../../../images/drybol.png)
+```eval_rst
+.. image:: ../../../../images/drybol.png
+    :width: 600
+    :alt: Drybol
+```
 
 ### No Background
 
 Just position the camera where you can only see the Minecraft build in the image.
 
-![Example](../../../../images/kirk_iceland.png)
+```eval_rst
+.. image:: ../../../../images/kirk_iceland.png
+    :width: 600
+    :alt: Iceland
+```
 
 ### Infinite Background
 
 Common techinique in real world photos, now in Blender. Watch [this](https://www.youtube.com/watch?v=1kULKsUEctw) or [this](https://www.youtube.com/watch?v=5UCc3Z_-ibs) or maybe [this](https://www.youtube.com/watch?v=8FUzeMY6b18).
 
-![Example](../../../../images/boston.png)
+```eval_rst
+.. image:: ../../../../images/boston.png
+    :width: 600
+    :alt: Boston
+```
 
 I'm sure I missed some things, if they're not in [the extra page](extra), tell me on Discord. Of course I'm not going to cover every single thing that can be done in Blender.

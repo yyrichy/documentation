@@ -17,13 +17,10 @@ release = '2.0.0'
 
 extensions = [
     'recommonmark',
-    'sphinx.ext.todo',
     'sphinx.ext.extlinks',
     'sphinx.ext.autosectionlabel',
     'sphinx.ext.duration',
 ]
-todo_include_todos = True
-todo_emit_warnings = True
 autosectionlabel_prefix_document = True
 
 html_theme = 'karma_sphinx_theme'
