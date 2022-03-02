@@ -26,7 +26,7 @@ todo_include_todos = True
 todo_emit_warnings = True
 autosectionlabel_prefix_document = True
 
-html_theme = 'furo'
+html_theme = 'karma_sphinx_theme'
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -34,21 +34,9 @@ html_theme = 'furo'
 # a list of builtin themes.
 #
 html_theme_options = {
-    'sidebar_hide_name': True,
-    'navigation_with_keys': True,
-    'announcement': '<em>This site is a work in progress.</em>',
-    'light_logo': 'img/cloud-circle.png',
-    'dark_logo': 'img/cloud-circle.png',
-    'light_css_variables': {
-        'color-brand-primary': '#3864ED',
-        'color-brand-content': '#0997C1',
-        'color-admonition-background': '#F7F7F7'
-    },
-    'dark_css_variables': {
-        'color-brand-primary': '#3864ED',
-        'color-brand-content': '#2AE1FF',
-        'color-admonition-background': '#383838'
-    }
+    'navigation_depth': 5,
+    'includehidden': True,
+    'titles_only': False
 }
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
