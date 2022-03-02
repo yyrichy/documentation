@@ -10,7 +10,7 @@ authors:
 First install [Blender](https://www.blender.org/) before preceding to the pages below.
 ```eval_rst
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
 
     creating-obj
     importing-obj

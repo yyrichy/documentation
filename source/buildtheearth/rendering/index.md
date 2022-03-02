@@ -7,9 +7,8 @@ authors:
 --->
 # Minecraft Rendering
 ```eval_rst
-.. note:: If you have issues, contact @VapoR#0807 on Discord
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 4
     
     chunky/index.md
     blender/index.md

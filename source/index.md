@@ -7,7 +7,7 @@ authors:
 --->
 # Welcome to VapoR's Docs!
 ```eval_rst
-.. note:: Ask @VapoR#0807 on Discord if you have questions!
+.. note:: Ask @rypr#0807 on Discord if you have questions!
 .. toctree::
     :maxdepth: 3
     :glob:
