@@ -33,8 +33,6 @@ html_theme = 'furo'
 html_theme_options = {
     'sidebar_hide_name': True,
     'navigation_with_keys': True,
-    'light_logo': 'img/cloud-circle.png',
-    'dark_logo': 'img/cloud-circle.png',
     'light_css_variables': {
         'color-brand-primary': '#3864ED',
         'color-brand-content': '#0997C1',
