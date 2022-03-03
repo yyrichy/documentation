@@ -25,7 +25,12 @@ The first step of making a render is creating an OBJ file from your world or sch
 
 ```eval_rst
 .. note::
-   There's currently no good way of rendering things taller than 256 blocks if you created them on a 1.12.2 Cubic Chunks world. (If it was on a 1.17/1.18 vanilla server this note doesn't apply) You can either stack schematics in a 1.18 vanilla world then use that world to create a single OBJ, or make multiple schematics on the 1.12.2 world then create multiple OBJs.
+   **There's currently no good way of rendering things taller than 256 blocks** if you created them on a 1.12.2 Cubic Chunks world. (If it was on a 1.17/1.18 vanilla server this note doesn't apply) You have two options:
+
+   * You can either stack schematics in a 1.18 vanilla world then use that world to create a single OBJ
+   * Make multiple schematics on the 1.12.2 world, create multiple OBJs, then stack in Blender
+
+   Alternatively if you don't want to use blender you can use :doc:`Chunky <../chunky/index>`.
 ```
 
 ## Using Mineways

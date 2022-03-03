@@ -5,7 +5,7 @@ version: 1.0.0
 authors:
     - @VapoR
 --->
-# Rendering with Chunky
+# Chunky
 
 Read [Chunky's official documentation](https://chunky-dev.github.io/docs/getting_started/).
 

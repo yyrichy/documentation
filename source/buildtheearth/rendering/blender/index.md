@@ -5,7 +5,7 @@ version: 1.0.0
 authors:
     - @VapoR
 --->
-# Rendering with Blender
+# Blender
 
 First install [Blender](https://www.blender.org/) before preceding to the pages below.
 ```eval_rst

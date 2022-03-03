@@ -23,7 +23,7 @@ extensions = [
 ]
 autosectionlabel_prefix_document = True
 
-html_theme = 'karma_sphinx_theme'
+html_theme = 'furo'
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -31,18 +31,29 @@ html_theme = 'karma_sphinx_theme'
 # a list of builtin themes.
 #
 html_theme_options = {
-    'navigation_depth': 5,
-    'includehidden': True,
-    'titles_only': False
+    'sidebar_hide_name': True,
+    'navigation_with_keys': True,
+    'light_logo': 'img/cloud-circle.png',
+    'dark_logo': 'img/cloud-circle.png',
+    'light_css_variables': {
+        'color-brand-primary': '#3864ED',
+        'color-brand-content': '#0997C1',
+        'color-admonition-background': '#F7F7F7'
+    },
+    'dark_css_variables': {
+        'color-brand-primary': '#3864ED',
+        'color-brand-content': '#2AE1FF',
+        'color-admonition-background': '#383838'
+    }
 }
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
+# so a file named 'default.css' will overwrite the builtin 'default.css'.
 html_static_path = ['../common/_static']
 
 html_favicon = '../common/_static/img/logo.png'
-html_title = "VapoR's Docs"
-html_short_title = "VDocs"
+html_title = 'VapoR\'s Docs'
+html_short_title = 'VDocs'
 
 def setup(app):
     app.add_config_value('recommonmark_config', {
