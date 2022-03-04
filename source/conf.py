@@ -16,14 +16,15 @@ release = '2.0.0'
 # ones.
 
 extensions = [
-    'recommonmark',
     'sphinx.ext.extlinks',
     'sphinx.ext.autosectionlabel',
     'sphinx.ext.duration',
+    'myst_parser'
 ]
 autosectionlabel_prefix_document = True
+myst_heading_anchors = 5
 
-html_theme = 'furo'
+html_theme = 'sphinx_book_theme'
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -31,18 +32,10 @@ html_theme = 'furo'
 # a list of builtin themes.
 #
 html_theme_options = {
-    'sidebar_hide_name': True,
-    'navigation_with_keys': True,
-    'light_css_variables': {
-        'color-brand-primary': '#3864ED',
-        'color-brand-content': '#0997C1',
-        'color-admonition-background': '#F7F7F7'
-    },
-    'dark_css_variables': {
-        'color-brand-primary': '#3864ED',
-        'color-brand-content': '#2AE1FF',
-        'color-admonition-background': '#383838'
-    }
+    'use_download_button': False,
+    'logo_only': True,
+    'show_toc_level': 2,
+    'home_page_in_toc': True,
 }
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -50,6 +43,7 @@ html_theme_options = {
 html_static_path = ['../common/_static']
 
 html_favicon = '../common/_static/img/logo.png'
+html_logo = '../common/_static/img/cloud-circle.png'
 html_title = 'VapoR\'s Docs'
 html_short_title = 'VDocs'
 
