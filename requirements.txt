@@ -1,5 +1,5 @@
 sphinx-rtd-theme>0.5
 sphinx>3
 sphinx-autobuild
-furo
 myst-parser
+sphinx-book-theme
