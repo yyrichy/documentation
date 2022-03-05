@@ -14,10 +14,20 @@ I suggest familiarising yourself with Blender's controls and layout before prece
 
 ## Basic Controls
 
-- Use scroll wheel to zoom in and out
-- Use joystick looking sphere at the top right to change perspective
-- Hold middle click and move mouse to change perspective
-- Hold shift and middle click then move mouse to pan around
+```{list-table}
+:header-rows: 1
+
+* - Keybind
+  - Function
+* - Scroll wheel
+  - Zoom in and out
+* - "Joystick" sphere at top right
+  - Rotate view
+* - Middle click + move mouse
+  - Rotate view
+* - Shift + middle click + move mouse
+  - Pan view
+```
 
 Watch [this](https://www.youtube.com/watch?v=K6Sm7DAPTGE) if you don't understand.
 
@@ -38,12 +48,11 @@ There are two basic ways to light your scene, HDRIs and lights/lamps (sun, area,
 
 ### Render Engine
 
-1. For Minecraft renders it's best looking to use cycles. As of writing cycles X hasn't been released with it, but you can mess around with it in alpha.
+1. For Minecraft renders it's best looking to use cycles.
 2. To enable switch to cycles from eevee (default engine), go to the right side panel in the `Layout` editor, and select `Render Properties`, `Render Engine`, and select `Cycles`
 3. On the top right of the 3d viewport click the sphere `Viewport Shading`
 
-```eval_rst
-.. image:: ../../../../images/viewport_shading.png
+```{image} ../../../../images/viewport_shading.png
     :width: 600
     :alt: Viewport Shading
 ```
@@ -56,8 +65,7 @@ There are two basic ways to light your scene, HDRIs and lights/lamps (sun, area,
 4. Now when you move around the camera will also move around
 5. I suggest increasing the camera focal length (like decreasing Minecraft FOV) by selecting the Camera, going to the right side bar, clicking the green camera icon, and changing `Lens`, `Focal Length`
 
-```eval_rst
-.. image:: ../../../../images/camera_focal_length.png
+```{image} ../../../../images/camera_focal_length.png
     :width: 600
     :alt: Camera Focal Length
 ```
@@ -73,8 +81,7 @@ You can either use the background of the HDRI, which can sometimes work or somet
 
 Just position the camera where you can only see the ski of the HDRI in the image.
 
-```eval_rst
-.. image:: ../../../../images/drybol.png
+```{image} ../../../../images/drybol.png
     :width: 600
     :alt: Drybol
 ```
@@ -83,8 +90,7 @@ Just position the camera where you can only see the ski of the HDRI in the image
 
 Just position the camera where you can only see the Minecraft build in the image.
 
-```eval_rst
-.. image:: ../../../../images/kirk_iceland.png
+```{image} ../../../../images/kirk_iceland.png
     :width: 600
     :alt: Iceland
 ```
@@ -93,8 +99,7 @@ Just position the camera where you can only see the Minecraft build in the image
 
 Common techinique in real world photos, now in Blender. Watch [this](https://www.youtube.com/watch?v=1kULKsUEctw) or [this](https://www.youtube.com/watch?v=5UCc3Z_-ibs) or maybe [this](https://www.youtube.com/watch?v=8FUzeMY6b18).
 
-```eval_rst
-.. image:: ../../../../images/boston.png
+```{image} ../../../../images/boston.png
     :width: 600
     :alt: Boston
 ```
