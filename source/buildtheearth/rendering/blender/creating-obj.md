@@ -8,7 +8,12 @@ authors:
 
 # Creating an OBJ
 
-The first step of making a render is creating an OBJ file from your world or schematic. The OBJ file will later be imported into Blender. There are two software options for creating an OBJ, [Mineways](#using-mineways) and [jMc2Obj](#using-jmc2obj). Neither support Cubic Chunks worlds. If you have a Cubic Chunks world you'll need to make a schematic or convert to a vanilla world with the Cubic Chunks Converter.
+The first step of making a render is creating an OBJ file from your world or schematic. The OBJ file will later be imported into Blender.
+
+## Pick a Software
+
+There are two software options for creating an OBJ, [Mineways](#using-mineways) and [jMc2Obj](#using-jmc2obj). Neither support Cubic Chunks worlds. If you have a Cubic Chunks world you'll need to make a schematic or convert to a vanilla world with the Cubic Chunks Converter.
+
 ```eval_rst
 .. caution::
    Mineways is much less optimized than jMc2Obj, so that is why I don't recommend Mineways for huge areas. With jMc2Obj you can render huge areas (I once did all of downtown Seattle and more) when optmize mesh is checked, however it has its drawbacks. When it is checked, panes, fences, walls, etc may be missing. If you uncheck optimize mesh, performance goes down drastically.

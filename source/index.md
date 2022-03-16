@@ -1,11 +1,11 @@
 <!---
-title: Index
+title: Home
 path: /
 version: 1.0.0  
 authors:
   - @VapoR
 --->
-# Welcome to VapoR's Documentation!
+# Home
 ```eval_rst
 .. note:: Ask @rypr#0807 on Discord if you have questions!
 .. toctree::
