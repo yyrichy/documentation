@@ -13,17 +13,17 @@ authors:
 3. If you used Mineways, on the sidebar click `OBJ world import` and select your OBJ from earlier. If you used jMc2Obj, on the top left click `File`, `Import`, `Wavefront (.obj)`, then select your OBJ.
 4. On the sidebar click `Prep Materials`
 
-```{image} ../../../../images/blender_sidebar.png
+```eval_rst
+.. image:: ../../../../images/blender_sidebar.png
     :width: 600
     :alt: Blender sidebar
 ```
-## Possible Distortion
-
+ 
 If you used jMc2Obj, you may notice that the OBJ looks distorted, so try changing the `x/y/z` scales until the blocks are square cubes.
-
 If you don't know how to reshape the OBJ, try selecting the build in Blender, on the right side panel enter in the search box `Transform`, then tweak the scales.
 
-```{image} ../../../../images/transform.png
+```eval_rst
+.. image:: ../../../../images/transform.png
     :width: 600
     :alt: Transform
 ```

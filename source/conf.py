@@ -46,3 +46,12 @@ html_favicon = '../common/_static/img/logo.png'
 html_logo = '../common/_static/img/cloud-circle.png'
 html_title = 'VapoR\'s Docs'
 html_short_title = 'VDocs'
+
+def setup(app):
+    app.add_config_value('recommonmark_config', {
+            #'url_resolver': lambda url: github_doc_root + url,
+            'enable_math': False,
+            'enable_inline_math': False,
+            'enable_eval_rst': True,
+        }, True)
+    app.add_transform(AutoStructify)

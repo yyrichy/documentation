@@ -8,14 +8,13 @@ authors:
 # Blender
 
 First install [Blender](https://www.blender.org/) before preceding to the pages below.
-```{toctree}
----
-maxdepth: 3
----
+```eval_rst
+.. toctree::
+    :maxdepth: 3
 
-creating-obj
-importing-obj
-preparing-scene
-exporting-render
-extra
+    creating-obj
+    importing-obj
+    preparing-scene
+    exporting-render
+    extra
 ```

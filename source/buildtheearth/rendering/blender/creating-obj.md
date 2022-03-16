@@ -8,12 +8,9 @@ authors:
 
 # Creating an OBJ
 
-The first step of making a render is creating an OBJ file from your world or schematic. The OBJ file will later be imported into Blender. 
-
-## Pick a Software
-
-There are two software options for creating an OBJ, [Mineways](#using-mineways) and [jMc2Obj](#using-jmc2obj). Neither support Cubic Chunks worlds. If you have a Cubic Chunks world you'll need to make a schematic or convert to a vanilla world with the Cubic Chunks Converter.
-```{caution}
+The first step of making a render is creating an OBJ file from your world or schematic. The OBJ file will later be imported into Blender. There are two software options for creating an OBJ, [Mineways](#using-mineways) and [jMc2Obj](#using-jmc2obj). Neither support Cubic Chunks worlds. If you have a Cubic Chunks world you'll need to make a schematic or convert to a vanilla world with the Cubic Chunks Converter.
+```eval_rst
+.. caution::
    Mineways is much less optimized than jMc2Obj, so that is why I don't recommend Mineways for huge areas. With jMc2Obj you can render huge areas (I once did all of downtown Seattle and more) when optmize mesh is checked, however it has its drawbacks. When it is checked, panes, fences, walls, etc may be missing. If you uncheck optimize mesh, performance goes down drastically.
 ```
 - Use [Mineways](#using-mineways) If These Apply
@@ -26,7 +23,8 @@ There are two software options for creating an OBJ, [Mineways](#using-mineways) 
   * You want to render a large area (~ >500 x 500 blocks)
   * You want banners and custom heads to be in the OBJ. (Requires you to use a world with heads/banners, which you might not be able to do if you use the CubicChunksConverter)
 
-```{note}
+```eval_rst
+.. note::
    **There's currently no good way of rendering things taller than 256 blocks** if you created them on a 1.12.2 Cubic Chunks world. (If it was on a 1.17/1.18 vanilla server this note doesn't apply) You have two options:
 
    * You can either stack schematics in a 1.18 vanilla world then use that world to create a single OBJ
@@ -48,7 +46,8 @@ There are two software options for creating an OBJ, [Mineways](#using-mineways) 
 - Select a folder to save the OBJ file, enter a name for the OBJ file, then click `Save`
 - A settings screen will pop up. Beginners just click `OK`
 - Wait until the blue progress bar at the bottom is complete, then exit the program. You should now have an OBJ (along with textures, etc) at the folder you selected before
-```{tip}
+```eval_rst
+.. tip::
    If you run out of memory when exporting, click **Help**, and check **Give more export memory!**, then restart the program. If you ran out of memory it's likely a large area, in which case you should consider using jMc2Obj.
 ```
 
@@ -64,12 +63,13 @@ There are two software options for creating an OBJ, [Mineways](#using-mineways) 
 - After selecting a region, click `Export`
 - Copy these settings, adjusting thread count to your own computer's specs
 
-```{image} ../../../../images/jmc.png
+```eval_rst
+.. image:: ../../../../images/jmc.png
     :width: 600
     :alt: JMC
 ```
 
-- Click `Export textures from: Minecraft` then wait until it finishes
+- Click `Export textures from: Minecraft`
 - Click `Export` on bottom right (use the same folder as the textures)
 
 After the files are created, proceed [to the next step](importing-obj).

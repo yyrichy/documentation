@@ -6,11 +6,11 @@ authors:
     - @VapoR
 --->
 # BuildTheEarth
-```{toctree}
----
-maxdepth: 3
-glob:
---- 
+```eval_rst
+.. toctree::
+    :name: BuildTheEarth
+    :maxdepth: 3
+    :glob: 
 
-rendering/index.md
+    rendering/index.md
 ```

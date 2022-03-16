@@ -6,11 +6,10 @@ authors:
     - @VapoR
 --->
 # Minecraft Rendering
-```{toctree}
----
-maxdepth: 3
----
-
-chunky/index.md
-blender/index.md
+```eval_rst
+.. toctree::
+    :maxdepth: 4
+    
+    chunky/index.md
+    blender/index.md
 ```

@@ -12,7 +12,8 @@ authors:
 
 Go to `Output Properties` on the right side panel and change `Resolution X` and `Resolution Y`.
 
-```{image} ../../../../images/resolution.png
+```eval_rst
+.. image:: ../../../../images/resolution.png
     :width: 600
     :alt: Resolution
 ```
@@ -30,7 +31,8 @@ Optimal tile size (the orange box that moves around when rendering the image) de
 
 People always talk about sample count, but for basic renders just use 128 or 256 or 512, people can't tell the difference between that and 2048. In order to change the amount of samples go to `Render Properties` on the right side panel, `Sampling`, and change the `Render` value. You can also change the `Viewport` value, but don't make that high.
 
-```{image} ../../../../images/samples.png
+```eval_rst
+.. image:: ../../../../images/samples.png
     :width: 600
     :alt: Samples
 ```
