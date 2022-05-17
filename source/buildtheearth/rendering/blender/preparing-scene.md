@@ -8,7 +8,7 @@ authors:
 
 # Preparing Scene in Blender
 
-So this is the big one. Blender has unlimited possibilities, and there are an unlimited amount of things you could do with your render. But here are some basic ways to present your build.  
+So this is the big one. Blender has unlimited possibilities, and there are an unlimited amount of things you could do with your render. But here are some basic ways to present your build.
 
 I suggest familiarising yourself with Blender's controls and layout before preceding, but if you don't want to then read [the next section](#basic-controls).
 
@@ -51,7 +51,7 @@ There are two basic ways to light your scene, HDRIs and lights/lamps (sun, area,
 ## Camera
 
 1. In the `Layout` editor in the `3D Viewport` on the top left click `Add`, `Camera`
-2. On the right side of the `3D Viewport` click the camera icon
+2. On the right side of the `3D Viewport` click the camera icon. You are now seeing what the camera sees. Whatever is in the outlined box in the center is whatever will be in the rendered image. In order to leave the camera, click the camera icon again
 3. On the right sidebar click `View`, `View`, `View Lock`, `Lock`: check `Camera to View`
 4. Now when you move around the camera will also move around
 5. I suggest increasing the camera focal length (like decreasing Minecraft FOV) by selecting the Camera, going to the right side bar, clicking the green camera icon, and changing `Lens`, `Focal Length`
@@ -62,9 +62,34 @@ There are two basic ways to light your scene, HDRIs and lights/lamps (sun, area,
     :alt: Camera Focal Length
 ```
 
+### When in Camera or View Parts of the Render are Cut Off?
+
+This is a common issue and it is because your camera's or view's "render distance" is too low, so parts of your render too far away are not visible. This however can be easily fixed.
+
+#### For Camera Cut Off
+
+If when you are **inside** of the camera, looking at what the camera is seeing
+
+- Follow [step 5 above](#camera) and the image above, but instead of changing Lens or Focal Length increase `End` value under `Clip Start`
+
+#### For View Cut Off
+
+If you are looking at the scene while not in the camera.
+
+1. If you cannot see `Item`, `Tool`, `View` on a vertical bar at the top right of the `3D Viewport` click the small arrow on the top right of the `3D Viewport`
+2. Click `View`
+3. Increase `End` value
+
+```eval_rst
+.. image:: ../../../../images/blender_view_sidebar.png
+    :width: 600
+    :alt: View
+```
+
 ## Ground
 
 One of trillions of possibilities is to only show the Minecraft build's ground in the image, and another is to make a plane and extend it, another is to use an "Infiinite Background" (explained in the next section).
+
 ## Background
 
 You can either use the background of the HDRI, which can sometimes work or sometimes look completely unrealistic, not show anything except the Minecraft build in the image, or hide the HDRI background and use an "infinte background".
